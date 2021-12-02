@@ -10,6 +10,11 @@ const users = [
         email: "admin2@email.com",
         password: "admin"
     },
+    {
+        name: "Usuário Administrador III",
+        email: "admin3@email.com",
+        password: "admin"
+    }
 ];
 
 export function login(email, password) {
