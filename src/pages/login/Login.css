@@ -1,0 +1,53 @@
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body #root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body #root #login {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+    color: white;
+    border-radius: 16px;
+}
+
+body #root #login form {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body #root #login form label {
+    width: calc(100% - 32px);
+}
+
+body #root #login form input {
+    width: calc(100% - 32px);
+    height: 32px;
+}
+
+body #root #login form input[type=submit] {
+    width: 50%;
+}
